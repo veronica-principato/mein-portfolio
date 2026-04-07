@@ -106,6 +106,27 @@ padding-left: 20px;
   margin-top: 8px;
 }
 
+.calculator-section {
+  margin-top: 20px;
+}
+
+.calculator-section input {
+  padding: 8px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.calculator-section button {
+  padding: 8px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 </style>
 
 </head>
@@ -178,6 +199,26 @@ Dabei habe ich gelernt, wie man mit Events arbeitet und Elemente dynamisch im DO
   <ul id="taskList"></ul>
 </div>
 
+<h3>Projekt: Rechner</h3>
+
+<p>
+Dieses Projekt ist ein einfacher Rechner, den ich mit JavaScript erstellt habe.
+Man kann zwei Zahlen eingeben und eine Berechnung durchführen.
+Dabei habe ich gelernt, wie man mit Zahlen und Logik arbeitet.
+</p>
+
+<div class="calculator-section">
+  <input type="number" id="num1" placeholder="Zahl 1">
+  <input type="number" id="num2" placeholder="Zahl 2">
+
+  <button id="add">+</button>
+  <button id="subtract">-</button>
+  <button id="multiply">*</button>
+  <button id="divide">/</button>
+
+  <p id="result">Ergebnis: </p>
+</div>
+
 <h3>Kontakt</h3>
 <p>
 E-Mail: <a href="mailto:veronica.principato@outlook.com">veronica.principato@outlook.com</a><br>
@@ -240,6 +281,30 @@ li.appendChild(deleteButton);
 list.appendChild(li);
 
   input.value = "";
+});
+
+const num1 = document.getElementById("num1");
+const num2 = document.getElementById("num2");
+const result = document.getElementById("result");
+
+document.getElementById("add").addEventListener("click", function() {
+  result.innerText = "Ergebnis: " + (Number(num1.value) + Number(num2.value));
+});
+
+document.getElementById("subtract").addEventListener("click", function() {
+  result.innerText = "Ergebnis: " + (Number(num1.value) - Number(num2.value));
+});
+
+document.getElementById("multiply").addEventListener("click", function() {
+  result.innerText = "Ergebnis: " + (Number(num1.value) * Number(num2.value));
+});
+
+document.getElementById("divide").addEventListener("click", function() {
+  if (Number(num2.value) === 0) {
+    result.innerText = "Fehler: Division durch 0!";
+  } else {
+    result.innerText = "Ergebnis: " + (Number(num1.value) / Number(num2.value));
+  }
 });
 
 </script>
