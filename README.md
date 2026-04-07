@@ -39,14 +39,16 @@ This project helped me understand:
 - Event handling  
 - Basic JavaScript logic  
 
-## What I learned
+### Rechner
+Dieser Rechner kann einfache Berechnungen durchführen (Addition, Subtraktion, Multiplikation, Division).  
+Ich habe gelernt, wie man mit Zahlen arbeitet und Eingaben überprüft (z.B. Division durch 0).
 
-Through this project I learned:
-
-- how to structure a website with HTML  
-- how to style it with CSS  
-- how to add interactivity using JavaScript  
-- how to work with GitHub Pages  
+## Was ich gelernt habe
+- Grundlagen von HTML und CSS  
+- Arbeiten mit JavaScript  
+- Umgang mit Events  
+- Dynamische Erstellung von Elementen im DOM  
+- Einfache Logik und Fehlerbehandlung   
 
 ## Goal
 
