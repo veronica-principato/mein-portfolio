@@ -25,6 +25,20 @@ It includes:
 - my first knowledge and experience  
 - a small interactive JavaScript element  
 
+## To-Do List Project
+
+I also created a simple To-Do list using JavaScript.
+
+Features:
+- Add tasks  
+- Mark tasks as completed  
+- Delete tasks  
+
+This project helped me understand:
+- DOM manipulation  
+- Event handling  
+- Basic JavaScript logic  
+
 ## What I learned
 
 Through this project I learned:
