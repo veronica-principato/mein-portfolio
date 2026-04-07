@@ -67,6 +67,25 @@ color: #555;
 ul {
 padding-left: 20px;
 }
+
+.interaction button {
+  background-color: #e75480;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.interaction button:hover {
+  background-color: #d9436f;
+}
+
+#message {
+  margin-top: 12px;
+  font-weight: bold;
+}
 </style>
 
 </head>
@@ -84,6 +103,11 @@ Durch meine bisherigen beruflichen Erfahrungen sowie einen Vorbereitungskurs im 
 habe ich erste praktische Kenntnisse gesammelt. Mein Ziel ist es, mich langfristig
 in der Softwareentwicklung oder Datenanalyse weiterzuentwickeln.
 </p>
+
+<div class="interaction">
+ <button id="myButton">Klick mich</button>
+  <p id="message">Das ist meine erste Webseite.</p>
+</div>
 
 <h3>Warum IT?</h3>
 <p>
@@ -129,5 +153,25 @@ Berlin
 </p>
 
 </div>
+
+<script>
+const button = document.getElementById("myButton");
+const message = document.getElementById("message");
+
+let clicked = false;
+
+button.addEventListener("click", function() {
+  if (clicked === false) {
+    message.innerText = "Du hast auf den Button geklickt!";
+    message.style.color = "green";
+    clicked = true;
+  } else {
+    message.innerText = "Das ist meine erste Webseite.";
+    message.style.color = "black";
+    clicked = false;
+  }
+});
+</script>
+
 </body>
 </html>
