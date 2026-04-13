@@ -47,11 +47,11 @@ I learned how to work with numbers and validate inputs (e.g., division by 0).
 
 What I learned:
 
--Basics of HTML and CSS
--Working with JavaScript
--Handling events
--Dynamically creating elements in the DOM
--Basic logic and error handling 
+Basics of HTML and CSS,
+Working with JavaScript,
+Handling events,
+Dynamically creating elements in the DOM,
+Basic logic and error handling.
 
 ## Goal
 
