@@ -38,18 +38,19 @@ Features:
 This project helped me understand:
 - DOM manipulation  
 - Event handling  
-- Basic JavaScript logic  
+- Basic JavaScript logic 
 
-### Rechner
-Dieser Rechner kann einfache Berechnungen durchführen (Addition, Subtraktion, Multiplikation, Division).  
-Ich habe gelernt, wie man mit Zahlen arbeitet und Eingaben überprüft (z.B. Division durch 0).
+## Calculator
 
-## Was ich gelernt habe
-- Grundlagen von HTML und CSS  
-- Arbeiten mit JavaScript  
-- Umgang mit Events  
-- Dynamische Erstellung von Elementen im DOM  
-- Einfache Logik und Fehlerbehandlung   
+This calculator can perform simple calculations (addition, subtraction, multiplication, division).
+I learned how to work with numbers and validate inputs (e.g., division by 0).
+
+What I learned:
+-Basics of HTML and CSS
+-Working with JavaScript
+-Handling events
+-Dynamically creating elements in the DOM
+-Basic logic and error handling 
 
 ## Goal
 
