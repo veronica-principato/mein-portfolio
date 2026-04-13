@@ -7,7 +7,8 @@ This is my first personal website, created as part of my journey into IT.
 My name is Veronica Principato. I am currently preparing for an Ausbildung in IT, especially in:
 
 - Fachinformatikerin für Anwendungsentwicklung  
-- Daten- und Prozessanalyse  
+- Daten- und Prozessanalyse
+- Systemintegration
 
 I am highly motivated to learn programming and develop my skills step by step.
 
