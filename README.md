@@ -46,6 +46,7 @@ This calculator can perform simple calculations (addition, subtraction, multipli
 I learned how to work with numbers and validate inputs (e.g., division by 0).
 
 What I learned:
+
 -Basics of HTML and CSS
 -Working with JavaScript
 -Handling events
